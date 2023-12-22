@@ -307,9 +307,8 @@ ul li:last-child a:hover {
     justify-content: center;
     border-radius: 10px;
     cursor: pointer;
-}
-.tech-btn-active {
-    background-color: #FFD95A;
+    background-color: #221c0a;
+    color: #ffdd44;
 }
 #tools-btn {
     /* background-color: red; */
@@ -320,6 +319,10 @@ ul li:last-child a:hover {
     justify-content: center;
     border-radius: 10px;
     cursor: pointer;
+
+}
+#tools-btn .tools-btn-active {
+    background-color: red;
 }
 
 #tech-stack {
@@ -335,11 +338,7 @@ ul li:last-child a:hover {
     height: 80px;
     display: flex;
     justify-content: space-between;
-    opacity: 0;
     transition: 3000ms;
-}
-.tech-line1-active {
-    opacity: 100%;
 }
 
 .tech-logo1 {
@@ -449,11 +448,6 @@ ul li:last-child a:hover {
     height: 80px;
     display: flex;
     justify-content: space-between;
-    opacity: 0;
-    transition: 2000ms;
-}
-.tech-line2-active {
-    opacity: 100%;
 }
 .tech-logo1-2 {
     width: 180px;
@@ -556,18 +550,12 @@ ul li:last-child a:hover {
     display: inline;
 }
 
-
 /* Line 3 */
 .tech-line3 {
     width: 1002px;
     height: 80px;
     display: flex;
     justify-content: space-between;
-    opacity: 0;
-    transition: 2000ms;
-}
-.tech-line3-active {
-    opacity: 100%;
 }
 .tech-logo1-3 {
     width: 180px;
@@ -677,7 +665,7 @@ ul li:last-child a:hover {
     height: 350px;
     display: flex;
     flex-direction: column;
-    display: none;
+    visibility: hidden;
 }
 .tools-line1 {
     width: 1002px;
@@ -693,6 +681,9 @@ ul li:last-child a:hover {
     gap: 10px;
     border: 1px solid #FFD95A;
     border-radius: 5px;
+}
+.tools-logo1:hover {
+    transform: scale(0.9);
 }
 .tools-logo1 img {
     width: 48px;
@@ -716,6 +707,9 @@ ul li:last-child a:hover {
     border: 1px solid #FFD95A;
     border-radius: 5px;
 }
+.tools-logo2:hover {
+    transform: scale(0.9);
+}
 .tools-logo2 img {
     width: 48px;
     height: 48px;
@@ -737,6 +731,9 @@ ul li:last-child a:hover {
     border: 1px solid #FFD95A;
     border-radius: 5px;
 }
+.tools-logo3:hover {
+    transform: scale(0.9);
+}
 .tools-logo3 img {
     width: 48px;
     height: 48px;
@@ -757,6 +754,9 @@ ul li:last-child a:hover {
     gap: 10px;
     border: 1px solid #FFD95A;
     border-radius: 5px;
+}
+.tools-logo4:hover {
+    transform: scale(0.9);
 }
 .tools-logo4 img {
     width: 48px;

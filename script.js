@@ -72,6 +72,42 @@ window.addEventListener('scroll', function(){
 })
 
 
+//skill
+const tech = document.getElementById("tech-stack");
+const techBtn = document.querySelector('.tech-btn');
+const tools = document.getElementById("tools");
+const toolsBtn = document.querySelector('.tools-btn');
+
+
+// Kedua
+tools.style.visibility = "hidden";
+
+function showTools(){
+    tools.style.visibility = "visible";
+    tech.style.display = "none";
+    document.getElementById("tools-btn").style.backgroundColor = "#221c0a";
+    document.getElementById("tools-btn").style.color = "#ffdd44";
+    document.getElementById("tech-btn").style.backgroundColor = "black";
+    document.getElementById("tech-btn").style.color = "white";
+    techBtn.classList.add('.tools-btn-active');
+}
+function showTech(){
+    tools.style.visibility = "hidden";
+    tech.style.display = "flex";
+    document.getElementById("tools-btn").style.backgroundColor = "black";
+    document.getElementById("tech-btn").style.backgroundColor = "#221c0a";
+    document.getElementById("tools-btn").style.color = "white";
+    document.getElementById("tech-btn").style.color = "#ffdd44";
+} 
+
+// Ketiga
+
+// toolsBtn.addEventListener('click' ,function() {
+//         tools.style.display = "block";
+//         tech.style.display = "none";
+// })
+
+
 // Tech
 const tech1 = document.querySelector('.tech-line1');
 
@@ -80,26 +116,6 @@ window.addEventListener('scroll', function(){
         tech1.classList.add('tech-line1-active');
     } else {
         tech1.classList.remove('tech-line1-active');
-    }
-})
-// Line 2
-const tech2 = document.querySelector('.tech-line2');
-
-window.addEventListener('scroll', function(){
-    if(this.window.scrollY > 900) {
-        tech2.classList.add('tech-line2-active');
-    } else {
-        tech2.classList.remove('tech-line2-active');
-    }
-})
-// Line 3
-const tech3 = document.querySelector('.tech-line3');
-
-window.addEventListener('scroll', function(){
-    if(this.window.scrollY > 1000) {
-        tech3.classList.add('tech-line3-active');
-    } else {
-        tech3.classList.remove('tech-line3-active');
     }
 })
 
