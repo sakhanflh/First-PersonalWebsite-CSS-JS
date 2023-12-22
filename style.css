@@ -1066,7 +1066,7 @@ ul li:last-child a:hover {
     display: flex;
     justify-content: center;
     padding-top: 70px;
-    height: 110vh;
+    height: 115vh;
 }
 .contact-container {
     width: 100%;
@@ -1143,13 +1143,102 @@ ul li:last-child a:hover {
 }
 /* Footer */
 .footer {
-    background-color: green;
+    background-color: rgb(22, 22, 22);
     width: 100%;
-    height: 500px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding-top: 20px;
 }
-/* .footer {
+.footer-container {
+    width: 1200px;
+    height: 180px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+}
+.footer-desc {
+    width: 400px;
+    height: 140px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.explore-footer {
+    width: 200px;
+    height: 140px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.explore-footer li {
+    list-style-type: none;
+}
+.explore-footer li a{
+    text-decoration: none;
+    color: white;
+}
+.about-footer {
+    width: 200px;
+    height: 140px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.about-footer li {
+    list-style-type: none;
+}
+.about-footer li a{
+    text-decoration: none;
+    color: white;
+}
+.contact-footer {
+    width: 300px;
+    height: 140px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.img-contact {
+    display: flex;
+    gap: 30px;
+}
+
+.instagram {
+    width: 30px;
+    height: 30px;
+}
+.instagram img {
     width: 100%;
-    background-color: green;
-    height: 900px;
-} */
+    height: 100%;
+}
+.linkedin {
+    width: 30px;
+    height: 30px;
+}
+.linkedin img {
+    width: 100%;
+    height: 100%;
+}
+.gitHub-footer {
+    width: 30px;
+    height: 30px;
+}
+.gitHub-footer img {
+    width: 100%;
+    height: 100%;
+}
+
+
+/* Footer Outer */
+.footer-outer {
+    width: 1200px;
+    height: 30px;
+}
 /* Section Contact End */
