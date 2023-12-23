@@ -1323,9 +1323,10 @@ ul li:last-child a:hover {
     }
     .navbar-extra {
         display: block;
-        padding-right: 5px;
+        margin-right: 5px;
         font-size: 30px;
         overflow-y: hidden;
+        height: 30px;
     }
 
     /* Home */
