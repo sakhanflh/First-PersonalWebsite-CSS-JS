@@ -1333,6 +1333,7 @@ ul li:last-child a:hover {
         justify-content: center;
         width: 100vw;
         height: 650px;
+        padding-top: 50px;
     }
     .home-container {
         display: flex;
