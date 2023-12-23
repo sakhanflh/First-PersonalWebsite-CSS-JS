@@ -1349,6 +1349,7 @@ ul li:last-child a:hover {
     }
     .desc-home-container {
         align-items: center;
+        text-align: center;
     }
     .profile-container {
         width: 250px;
