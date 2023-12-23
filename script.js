@@ -141,6 +141,6 @@ const navbar = document.querySelector('.nav');
 const hamburgerButton = document.querySelector('.navbar-extra');
 
 hamburgerButton.addEventListener('click', function() {
-    navbar.classList.toggle('navbar-reveal');
+    navbar.classList.toggle('nav-reveal');
 });
 // Menu

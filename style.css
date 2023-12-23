@@ -1325,7 +1325,7 @@ ul li:last-child a:hover {
         display: block;
         padding-right: 5px;
         font-size: 30px;
-        overflow: hidden;
+        overflow-y: hidden;
     }
 
     /* Home */
