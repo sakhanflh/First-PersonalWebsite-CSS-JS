@@ -868,6 +868,7 @@ ul li:last-child a:hover {
     flex-direction: column;
     width: 100%;
     text-align: justify;
+    gap: 10px;
 }
 .project1-desc h3 {
     font-size: 22px;
@@ -950,6 +951,7 @@ ul li:last-child a:hover {
     flex-direction: column;
     width: 100%;
     text-align: justify;
+    gap: 10px;
 }
 .project2-desc h3 {
     font-size: 22px;
@@ -1033,6 +1035,7 @@ ul li:last-child a:hover {
     flex-direction: column;
     width: 100%;
     text-align: justify;
+    gap: 10px;
 }
 .project3-desc h3 {
     font-size: 22px;
@@ -1300,10 +1303,38 @@ ul li:last-child a:hover {
         flex-direction: column;
         margin-left: -30px;
         margin-bottom: 320px;
-        width: 130px;
+        width: 200px;
         height: 250px;
         justify-content: space-between;
         align-items: start;
+    }
+    .nav ul li {
+        width: 150px;
+    }
+    .nav ul li:first-child{
+        height: 100px;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+    .nav ul li:nth-child(2){
+        height: 100px;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+    .nav ul li:nth-child(3){
+        height: 100px;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+    .nav ul li:last-child {
+        height: 100px;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        
     }
     .nav ul li a {
         font-size: 18px;
@@ -1393,6 +1424,13 @@ ul li:last-child a:hover {
 
     .about-desc-wrapper {
         width: 100%;
+        box-sizing: border-box;
+        justify-content: center;
+    }
+    .about-desc {
+        width: 94%;
+        justify-content: center;
+        padding: 0.1rem 3%;
     }
     
     .skill-container {
